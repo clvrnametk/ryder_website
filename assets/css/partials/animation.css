@@ -1,13 +1,13 @@
-.section-content-home-left, .wo-header-padding, .hero-content, .letter-img-animate {
-  -webkit-animation: fadein 1.3s;
+.animate-hero {
+  -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1.3s;
+  -moz-animation: fadein 2s;
   /* Firefox < 16 */
-  -ms-animation: fadein 1.3s;
+  -ms-animation: fadein 2s;
   /* Internet Explorer */
-  -o-animation: fadein 1.3s;
+  -o-animation: fadein 2s;
   /* Opera < 12.1 */
-  animation: fadein 1.3s; }
+  animation: fadein 2s; }
 
 .project-img {
   animation: slideProject 1s; }

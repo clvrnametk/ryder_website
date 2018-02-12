@@ -286,7 +286,7 @@ table {
   letter-spacing: .02rem;
   line-height: 1.56;
   text-align: center;
-  color: #9d9ce2; }
+  color: #ffffff; }
 
 .d-wo-h-1-dp-l {
   font-family: "Roboto Slab", serif;
@@ -431,16 +431,16 @@ table {
   text-align: center;
   color: #ffffff; }
 
-.section-content-home-left, .wo-header-padding, .hero-content, .letter-img-animate {
-  -webkit-animation: fadein 1.3s;
+.animate-hero {
+  -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1.3s;
+  -moz-animation: fadein 2s;
   /* Firefox < 16 */
-  -ms-animation: fadein 1.3s;
+  -ms-animation: fadein 2s;
   /* Internet Explorer */
-  -o-animation: fadein 1.3s;
+  -o-animation: fadein 2s;
   /* Opera < 12.1 */
-  animation: fadein 1.3s; }
+  animation: fadein 2s; }
 
 .project-img {
   animation: slideProject 1s; }
@@ -514,16 +514,96 @@ body {
   color: white; }
 
 .padding-top-large {
-  padding-top: 6rem; }
+  padding-top: 8rem; }
+
+.margin-right-btn {
+  margin-right: 1rem; }
 
 .hero-img-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  height: 100vh;
+  align-content: center;
   padding-left: 2rem;
   padding-right: 2rem; }
+  .hero-img-container div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem; }
 
 .hero-img {
   width: 100%;
-  max-width: 60.375rem; }
+  max-width: 30.1875rem; }
+
+header {
+  width: 100%;
+  height: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  /* NEW, Spec - Firefox, Chrome, Opera */
+  justify-content: space-between;
+  align-items: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  header .mm-logo {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    transform: scale(0.875); }
+
+.global-btn {
+  padding-top: .875rem;
+  padding-bottom: .875rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #969696;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+.global-btn:hover {
+  background-color: white;
+  color: #000000; }
+
+.font-width {
+  letter-spacing: .04rem; }
+
+@media screen and (max-width: 28.75rem) {
+  .margin-right-btn {
+    margin-right: 0rem; }
+
+  .margin-bottom-btn {
+    margin-bottom: 1rem; }
+
+  .hero-img-container div {
+    padding-bottom: 0rem; }
+
+  header {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,12 +3,13 @@
 //------------------------------------
 
 
-    .section-content-home-left, .wo-header-padding, .hero-content, .letter-img-animate {
-      -webkit-animation: fadein 1.3s; /* Safari, Chrome and Opera > 12.1 */
-         -moz-animation: fadein 1.3s; /* Firefox < 16 */
-          -ms-animation: fadein 1.3s; /* Internet Explorer */
-           -o-animation: fadein 1.3s; /* Opera < 12.1 */
-              animation: fadein 1.3s;
+    .animate-hero {
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+
     }
 
 .project-img {
@@ -26,6 +27,10 @@
 .bottom-center-slow {
   animation: arrowSlide 1.6s;
 }
+
+// .animate-btn {
+//   animation: slide 1s;
+// }
 
 @keyframes fadein {
   from { opacity: 0; }
