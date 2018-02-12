@@ -1,0 +1,37 @@
+//------------------------------------
+// IMPORTS
+//------------------------------------
+
+// Modules and Variables -or- Libraries
+// @import "./libraries/bourbon/bourbon.scss";
+
+// Partials
+@import "./partials/_reset.scss";
+@import "./partials/typography.scss";
+@import "./partials/animation.scss";
+
+
+//------------------------------------
+// GLOBAL: Section Styles
+//------------------------------------
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(0, 0, 0, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.padding-top-large {
+  padding-top: 6rem;
+}
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 60.375rem;
+}
